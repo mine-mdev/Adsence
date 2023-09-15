@@ -1,0 +1,10 @@
+blue:{
+    dark:"#3A3560",
+    light:"#D2DFFF"
+}
+gray:{
+    dark:"#838392",
+    light:"#F0F4F7"
+}
+
+pink:"#FFCDEA"

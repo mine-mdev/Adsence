@@ -1,0 +1,21 @@
+export  const profitsDataChart={
+    type:"bar",
+    data:{
+        labels:["week1","week2","week3","week4","week5"], 
+        datasets:[
+            {
+                label:"Spend",
+                data:[80,75,50,60,45],
+                backgroundColor:"#FFCDEA"
+            },
+            {
+                label:"Profits",
+                data:[60,55,65,70,80],
+                backgroundColor:"#D2DFFF"
+            }
+        ]
+    }, 
+    options:{
+        responsive:true
+    }
+}

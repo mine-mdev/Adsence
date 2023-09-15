@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    user-select: none;
+}
+
+nav div div:first-child ul li:first-child{
+    @apply bg-primary-dark rounded-md text-secondary-light;
+}
+
+
+@media screen and (min-height:750px){
+    nav .bottom-element
+    {
+        @apply absolute bottom-6;
+    }
+}
+
+
+
+
+::-webkit-scrollbar{
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb{
+    @apply rounded-md hover:bg-secondary-dark 
+}
+
+
+
